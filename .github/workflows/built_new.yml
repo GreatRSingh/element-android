@@ -25,12 +25,12 @@ jobs:
         run: chmod +x ./gradlew
 
       - name: Build
-        run: ./gradelw build
+        run: ./gradlew build
 
       - name: APK debug
-        run: ./gradelw assembleDebug
+        run: ./gradlew assembleDebug
 
       - name: APK release
-        run: ./gradelw assemble
+        run: ./gradlew assemble
 
 
