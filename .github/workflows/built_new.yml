@@ -1,0 +1,36 @@
+name: Make APK please
+
+on:
+
+  push:
+    branches:
+      - 'develop'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up JDK
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'zulu'
+          java-version: '17'
+          cache: 'gradle'
+      
+      - name: Update Permission
+        run: chmod +x ./gradlew
+
+      - name: Build
+        run: ./gradelw build
+
+      - name: APK debug
+        run: ./gradelw assembleDebug
+
+      - name: APK release
+        run: ./gradelw assemble
+
+
