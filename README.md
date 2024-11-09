@@ -17,7 +17,7 @@ It is a total rewrite of [Riot-Android](https://github.com/element-hq/riot-andro
 Build of develop branch: [![GitHub Action](https://github.com/element-hq/element-android/actions/workflows/build.yml/badge.svg?query=branch%3Adevelop)](https://github.com/element-hq/element-android/actions/workflows/build.yml?query=branch%3Adevelop) Nightly test status: [![allScreensTest](https://github.com/element-hq/element-android/actions/workflows/nightly.yml/badge.svg)](https://github.com/element-hq/element-android/actions/workflows/nightly.yml)
 
 
-# New Android SDK
+# New Android SDK LinuxLabs Version
 
 Element is based on a new Android SDK fully written in Kotlin (like Element). In order to make the early development as fast as possible, Element and the new SDK currently share the same git repository.
 
