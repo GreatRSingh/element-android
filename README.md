@@ -26,7 +26,7 @@ At each Element release, the SDK module is copied to a dedicated repository: htt
 # Roadmap
 
 The version 1.0.0 of Element still misses some features which was previously included in Riot-Android.
-The team will work to add them on a regular basis.
+The team will work to add them on a regular basis..
 
 # Releases to app stores
 
